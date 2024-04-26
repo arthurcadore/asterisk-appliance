@@ -1,0 +1,18 @@
+# Main composition file for Asterisk Application Container.
+# Author: Arthur Cadore M. Barcella
+# Github: arthurcadore
+# Capacitação Redes - PV Intelbras
+
+version: '3.8'
+services:
+  # Application container
+  asteriskserver:
+    container_name: asteriskserver
+    ports:
+      - "5060:5060/udp" # VoIP UDP port
+    volumes:
+      - "./config/extensions.conf:/etc/asterisk/extensions.conf"
+      - "./config/users.conf:/etc/asterisk/users.conf"
+    build:
+      context: .
+      dockerfile: ./app/Dockerfile
