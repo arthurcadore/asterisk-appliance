@@ -1,0 +1,1086 @@
+aluno@aluno:~$ apt-get update 
+Lendo listas de pacotes... Pronto
+E: Não foi possível abrir arquivo de trava /var/lib/apt/lists/lock - open (13: Permissão negada)
+E: Impossível criar acesso exclusivo ao directório /var/lib/apt/lists/
+W: Problema ao remover o link do ficheiro /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permissão negada)
+W: Problema ao remover o link do ficheiro /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permissão negada)
+aluno@aluno:~$ apt-get update ^C
+aluno@aluno:~$ sudo apt-get update 
+[sudo] senha para aluno: 
+Atingido:1 http://br.archive.ubuntu.com/ubuntu jammy InRelease
+Obter:2 http://br.archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Obter:3 http://br.archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+Obter:4 http://br.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1.848 kB]
+Obter:5 http://br.archive.ubuntu.com/ubuntu jammy-updates/main i386 Packages [665 kB]
+Obter:6 http://br.archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [333 kB]
+Obter:7 http://br.archive.ubuntu.com/ubuntu jammy-updates/main amd64 DEP-11 Metadata [103 kB]
+Obter:8 http://br.archive.ubuntu.com/ubuntu jammy-updates/main DEP-11 48x48 Icons [37,5 kB]
+Obter:9 http://br.archive.ubuntu.com/ubuntu jammy-updates/main DEP-11 64x64 Icons [56,8 kB]
+Obter:10 http://br.archive.ubuntu.com/ubuntu jammy-updates/main amd64 c-n-f Metadata [17,7 kB]
+Obter:11 http://br.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [2.177 kB]
+Obter:12 http://br.archive.ubuntu.com/ubuntu jammy-updates/restricted i386 Packages [38,9 kB]
+Obter:13 http://br.archive.ubuntu.com/ubuntu jammy-updates/restricted Translation-en [373 kB]
+Obter:14 http://br.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 DEP-11 Metadata [212 B]
+Obter:15 http://br.archive.ubuntu.com/ubuntu jammy-updates/restricted DEP-11 48x48 Icons [29 B]
+Obter:16 http://br.archive.ubuntu.com/ubuntu jammy-updates/restricted DEP-11 64x64 Icons [29 B]
+Obter:17 http://br.archive.ubuntu.com/ubuntu jammy-updates/restricted DEP-11 64x64@2 Icons [29 B]
+Obter:18 http://br.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 c-n-f Metadata [604 B]
+Obter:19 http://br.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1.108 kB]
+Obter:20 http://br.archive.ubuntu.com/ubuntu jammy-updates/universe i386 Packages [722 kB]
+Obter:21 http://br.archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [258 kB]
+Obter:22 http://br.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 DEP-11 Metadata [341 kB]
+Obter:23 http://br.archive.ubuntu.com/ubuntu jammy-updates/universe DEP-11 48x48 Icons [227 kB]
+Obter:24 http://br.archive.ubuntu.com/ubuntu jammy-updates/universe DEP-11 64x64 Icons [364 kB]
+Obter:25 http://br.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [25,4 kB]
+Obter:26 http://br.archive.ubuntu.com/ubuntu jammy-updates/multiverse i386 Packages [4.744 B]
+Obter:27 http://br.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [43,3 kB]
+Obter:28 http://br.archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en [10,8 kB]
+Obter:29 http://br.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 DEP-11 Metadata [940 B]
+Obter:30 http://br.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 c-n-f Metadata [444 B]
+Obter:31 http://br.archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [67,1 kB]
+Obter:32 http://br.archive.ubuntu.com/ubuntu jammy-backports/main i386 Packages [59,3 kB]
+Obter:33 http://br.archive.ubuntu.com/ubuntu jammy-backports/main Translation-en [11,0 kB]
+Obter:34 http://br.archive.ubuntu.com/ubuntu jammy-backports/main amd64 DEP-11 Metadata [6.772 B]
+Obter:35 http://br.archive.ubuntu.com/ubuntu jammy-backports/main DEP-11 48x48 Icons [16,1 kB]
+Obter:36 http://br.archive.ubuntu.com/ubuntu jammy-backports/main DEP-11 64x64 Icons [21,3 kB]
+Obter:37 http://br.archive.ubuntu.com/ubuntu jammy-backports/main DEP-11 64x64@2 Icons [29 B]
+Obter:38 http://br.archive.ubuntu.com/ubuntu jammy-backports/main amd64 c-n-f Metadata [388 B]
+Obter:39 http://br.archive.ubuntu.com/ubuntu jammy-backports/restricted amd64 DEP-11 Metadata [212 B]
+Obter:40 http://br.archive.ubuntu.com/ubuntu jammy-backports/restricted DEP-11 48x48 Icons [29 B]
+Obter:41 http://br.archive.ubuntu.com/ubuntu jammy-backports/restricted DEP-11 64x64 Icons [29 B]
+Obter:42 http://br.archive.ubuntu.com/ubuntu jammy-backports/restricted DEP-11 64x64@2 Icons [29 B]
+Obter:43 http://br.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [28,8 kB]
+Obter:44 http://br.archive.ubuntu.com/ubuntu jammy-backports/universe i386 Packages [17,2 kB]
+Obter:45 http://br.archive.ubuntu.com/ubuntu jammy-backports/universe Translation-en [16,5 kB]
+Obter:46 http://br.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 DEP-11 Metadata [21,1 kB]
+Obter:47 http://br.archive.ubuntu.com/ubuntu jammy-backports/universe DEP-11 48x48 Icons [15,7 kB]
+Obter:48 http://br.archive.ubuntu.com/ubuntu jammy-backports/universe DEP-11 64x64 Icons [25,6 kB]
+Obter:49 http://br.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 c-n-f Metadata [672 B]
+Obter:50 http://br.archive.ubuntu.com/ubuntu jammy-backports/multiverse amd64 DEP-11 Metadata [212 B]
+Obter:51 http://br.archive.ubuntu.com/ubuntu jammy-backports/multiverse DEP-11 48x48 Icons [29 B]
+Obter:52 http://br.archive.ubuntu.com/ubuntu jammy-backports/multiverse DEP-11 64x64 Icons [29 B]
+Obter:53 http://br.archive.ubuntu.com/ubuntu jammy-backports/multiverse DEP-11 64x64@2 Icons [29 B]
+Obter:54 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]  
+Ign:54 http://security.ubuntu.com/ubuntu jammy-security InRelease             
+Obter:54 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Obter:55 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1.640 kB]               
+Ign:55 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages                            
+Obter:56 http://security.ubuntu.com/ubuntu jammy-security/main i386 Packages [508 kB]
+Obter:57 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [276 kB]
+Obter:58 http://security.ubuntu.com/ubuntu jammy-security/main amd64 DEP-11 Metadata [43,2 kB]
+Obter:59 http://security.ubuntu.com/ubuntu jammy-security/main DEP-11 48x48 Icons [16,9 kB]
+Obter:60 http://security.ubuntu.com/ubuntu jammy-security/main DEP-11 64x64 Icons [26,5 kB]
+Obter:61 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [13,0 kB]
+Obter:62 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [2.120 kB]
+Obter:63 http://security.ubuntu.com/ubuntu jammy-security/restricted i386 Packages [37,3 kB]
+Obter:64 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en [363 kB]           
+Obter:65 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 DEP-11 Metadata [208 B]     
+Obter:66 http://security.ubuntu.com/ubuntu jammy-security/restricted DEP-11 48x48 Icons [29 B]         
+Obter:67 http://security.ubuntu.com/ubuntu jammy-security/restricted DEP-11 64x64 Icons [29 B]         
+Obter:68 http://security.ubuntu.com/ubuntu jammy-security/restricted DEP-11 64x64@2 Icons [29 B]       
+Obter:69 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 c-n-f Metadata [572 B]      
+Obter:70 http://security.ubuntu.com/ubuntu jammy-security/universe i386 Packages [618 kB]              
+Obter:71 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [885 kB]             
+Obter:72 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [173 kB]             
+Obter:73 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 DEP-11 Metadata [89,2 kB]     
+Obter:74 http://security.ubuntu.com/ubuntu jammy-security/universe DEP-11 48x48 Icons [41,0 kB]        
+Obter:75 http://security.ubuntu.com/ubuntu jammy-security/universe DEP-11 64x64 Icons [62,8 kB]        
+Obter:76 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [18,9 kB]      
+Obter:77 http://security.ubuntu.com/ubuntu jammy-security/multiverse i386 Packages [1.356 B]           
+Obter:78 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [37,2 kB]          
+Obter:79 http://security.ubuntu.com/ubuntu jammy-security/multiverse Translation-en [7.588 B]          
+Obter:80 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 DEP-11 Metadata [208 B]     
+Obter:81 http://security.ubuntu.com/ubuntu jammy-security/multiverse DEP-11 48x48 Icons [29 B]         
+Obter:82 http://security.ubuntu.com/ubuntu jammy-security/multiverse DEP-11 64x64 Icons [29 B]         
+Obter:83 http://security.ubuntu.com/ubuntu jammy-security/multiverse DEP-11 64x64@2 Icons [29 B]       
+Obter:84 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 c-n-f Metadata [228 B]      
+Obter:55 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1.640 kB]               
+Baixados 16,3 MB em 2min 46s (98,4 kB/s)                                                               
+Lendo listas de pacotes... Pronto
+aluno@aluno:~$ sudo apt-get update 
+Atingido:1 http://br.archive.ubuntu.com/ubuntu jammy InRelease            
+Atingido:2 http://br.archive.ubuntu.com/ubuntu jammy-updates InRelease    
+Atingido:3 http://br.archive.ubuntu.com/ubuntu jammy-backports InRelease                 
+Atingido:4 http://security.ubuntu.com/ubuntu jammy-security InRelease                    
+Lendo listas de pacotes... Pronto
+aluno@aluno:~$ apt-get install -y asterisk net-tools
+E: Não foi possível abrir arquivo de trava /var/lib/dpkg/lock-frontend - open (13: Permissão negada)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+aluno@aluno:~$ sudo apt-get install -y asterisk net-tools
+Lendo listas de pacotes... Pronto
+Construindo árvore de dependências... Pronto
+Lendo informação de estado... Pronto        
+Os pacotes adicionais seguintes serão instalados:
+  asterisk-config asterisk-core-sounds-en asterisk-core-sounds-en-gsm asterisk-modules
+  asterisk-moh-opsound-gsm freetds-common libc-client2007e libcodec2-1.0 libgmime-3.0-0 libgsm1
+  libiksemel3 liblua5.2-0 libneon27 libodbc2 libopencore-amrnb0 libopencore-amrwb0 libopusfile0
+  libportaudio2 libpq5 libradcli4 libresample1 libsox-fmt-alsa libsox-fmt-base libsox3 libspandsp2
+  libsrtp2-1 libsybdb5 libunbound8 liburiparser1 libvo-amrwbenc0 mlock sox
+Pacotes sugeridos:
+  asterisk-dahdi asterisk-dev asterisk-doc asterisk-ooh323 asterisk-opus asterisk-vpb uw-mailutils
+  odbc-postgresql tdsodbc libsox-fmt-all
+Os NOVOS pacotes a seguir serão instalados:
+  asterisk asterisk-config asterisk-core-sounds-en asterisk-core-sounds-en-gsm asterisk-modules
+  asterisk-moh-opsound-gsm freetds-common libc-client2007e libcodec2-1.0 libgmime-3.0-0 libgsm1
+  libiksemel3 liblua5.2-0 libneon27 libodbc2 libopencore-amrnb0 libopencore-amrwb0 libopusfile0
+  libportaudio2 libpq5 libradcli4 libresample1 libsox-fmt-alsa libsox-fmt-base libsox3 libspandsp2
+  libsrtp2-1 libsybdb5 libunbound8 liburiparser1 libvo-amrwbenc0 mlock net-tools sox
+0 pacotes atualizados, 34 pacotes novos instalados, 0 a serem removidos e 514 não atualizados.
+É preciso baixar 22,0 MB de arquivos.
+Depois desta operação, 54,2 MB adicionais de espaço em disco serão usados.
+Obter:1 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 asterisk-config all 1:18.10.0~dfsg+~cs6.10.40431411-2 [234 kB]
+Ign:1 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 asterisk-config all 1:18.10.0~dfsg+~cs6.10.40431411-2
+Obter:2 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 asterisk-core-sounds-en-gsm all 1.6.1-1 [2.417 kB]
+Obter:3 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 asterisk-core-sounds-en all 1.6.1-1 [20,6 kB]
+Obter:4 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 mlock amd64 8:2007f~dfsg-7build1 [12,2 kB]
+Obter:5 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 libc-client2007e amd64 8:2007f~dfsg-7build1 [645 kB]
+Obter:6 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 libcodec2-1.0 amd64 1.0.1-3 [8.435 kB]
+Obter:7 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 libgmime-3.0-0 amd64 3.2.7-1 [157 kB]
+Obter:8 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 libgsm1 amd64 1.0.19-1 [27,7 kB]
+Obter:9 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 libiksemel3 amd64 1.4-4 [29,2 kB]
+Obter:10 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 liblua5.2-0 amd64 5.2.4-2 [125 kB]
+Obter:11 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 libneon27 amd64 0.32.2-1 [102 kB]
+Obter:12 http://br.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libodbc2 amd64 2.3.9-5ubuntu0.1 [159 kB]
+Obter:13 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 libopencore-amrnb0 amd64 0.1.5-1 [94,8 kB]
+Obter:14 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 libopencore-amrwb0 amd64 0.1.5-1 [49,1 kB]
+Obter:15 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 libopusfile0 amd64 0.9+20170913-1.1build1 [43,2 kB]
+Obter:16 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 libportaudio2 amd64 19.6.0-1.1 [65,3 kB]
+Obter:17 http://br.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpq5 amd64 14.12-0ubuntu0.22.04.1 [149 kB]
+Obter:18 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 libradcli4 amd64 1.2.11-1build1 [40,0 kB]
+Obter:19 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 libresample1 amd64 0.1.3-5 [9.548 B]
+Obter:20 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 libspandsp2 amd64 0.0.6+dfsg-2 [272 kB]
+Obter:21 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 libsrtp2-1 amd64 2.4.2-2 [40,7 kB]
+Obter:22 http://br.archive.ubuntu.com/ubuntu jammy/main amd64 freetds-common all 1.3.6-1 [26,3 kB]
+Obter:23 http://br.archive.ubuntu.com/ubuntu jammy/main amd64 libsybdb5 amd64 1.3.6-1 [194 kB]
+Obter:24 http://br.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libunbound8 amd64 1.13.1-1ubuntu5.5 [399 kB]
+Obter:25 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 libvo-amrwbenc0 amd64 0.1.3-2 [68,2 kB]
+Obter:26 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 asterisk-modules amd64 1:18.10.0~dfsg+~cs6.10.40431411-2 [3.232 kB]
+Obter:27 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 liburiparser1 amd64 0.9.6+dfsg-1 [36,4 kB]
+Obter:28 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 asterisk amd64 1:18.10.0~dfsg+~cs6.10.40431411-2 [2.608 kB]
+Obter:29 http://br.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libsox3 amd64 14.4.2+git20190427-2+deb11u2ubuntu0.22.04.1 [240 kB]
+Obter:30 http://br.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libsox-fmt-alsa amd64 14.4.2+git20190427-2+deb11u2ubuntu0.22.04.1 [11,2 kB]
+Obter:31 http://br.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libsox-fmt-base amd64 14.4.2+git20190427-2+deb11u2ubuntu0.22.04.1 [33,7 kB]
+Obter:32 http://br.archive.ubuntu.com/ubuntu jammy/main amd64 net-tools amd64 1.60+git20181103.0eebece-1ubuntu5 [204 kB]
+Obter:33 http://br.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 sox amd64 14.4.2+git20190427-2+deb11u2ubuntu0.22.04.1 [104 kB]
+Obter:34 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 asterisk-moh-opsound-gsm all 2.03-1.1 [1.757 kB]
+Obter:1 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 asterisk-config all 1:18.10.0~dfsg+~cs6.10.40431411-2 [234 kB]
+Baixados 22,0 MB em 42s (520 kB/s)        
+Extraindo templates dos pacotes: 100%
+A seleccionar pacote anteriormente não seleccionado asterisk-config.
+(Lendo banco de dados ... 204357 ficheiros e directórios actualmente instalados.)
+A preparar para desempacotar .../00-asterisk-config_1%3a18.10.0~dfsg+~cs6.10.40431411-2_all.deb ...
+A descompactar asterisk-config (1:18.10.0~dfsg+~cs6.10.40431411-2) ...
+A seleccionar pacote anteriormente não seleccionado asterisk-core-sounds-en-gsm.
+A preparar para desempacotar .../01-asterisk-core-sounds-en-gsm_1.6.1-1_all.deb ...
+A descompactar asterisk-core-sounds-en-gsm (1.6.1-1) ...
+A seleccionar pacote anteriormente não seleccionado asterisk-core-sounds-en.
+A preparar para desempacotar .../02-asterisk-core-sounds-en_1.6.1-1_all.deb ...
+A descompactar asterisk-core-sounds-en (1.6.1-1) ...
+A seleccionar pacote anteriormente não seleccionado mlock.
+A preparar para desempacotar .../03-mlock_8%3a2007f~dfsg-7build1_amd64.deb ...
+A descompactar mlock (8:2007f~dfsg-7build1) ...
+A seleccionar pacote anteriormente não seleccionado libc-client2007e.
+A preparar para desempacotar .../04-libc-client2007e_8%3a2007f~dfsg-7build1_amd64.deb ...
+A descompactar libc-client2007e (8:2007f~dfsg-7build1) ...
+A seleccionar pacote anteriormente não seleccionado libcodec2-1.0:amd64.
+A preparar para desempacotar .../05-libcodec2-1.0_1.0.1-3_amd64.deb ...
+A descompactar libcodec2-1.0:amd64 (1.0.1-3) ...
+A seleccionar pacote anteriormente não seleccionado libgmime-3.0-0:amd64.
+A preparar para desempacotar .../06-libgmime-3.0-0_3.2.7-1_amd64.deb ...
+A descompactar libgmime-3.0-0:amd64 (3.2.7-1) ...
+A seleccionar pacote anteriormente não seleccionado libgsm1:amd64.
+A preparar para desempacotar .../07-libgsm1_1.0.19-1_amd64.deb ...
+A descompactar libgsm1:amd64 (1.0.19-1) ...
+A seleccionar pacote anteriormente não seleccionado libiksemel3:amd64.
+A preparar para desempacotar .../08-libiksemel3_1.4-4_amd64.deb ...
+A descompactar libiksemel3:amd64 (1.4-4) ...
+A seleccionar pacote anteriormente não seleccionado liblua5.2-0:amd64.
+A preparar para desempacotar .../09-liblua5.2-0_5.2.4-2_amd64.deb ...
+A descompactar liblua5.2-0:amd64 (5.2.4-2) ...
+^[A seleccionar pacote anteriormente não seleccionado libneon27:amd64.
+A preparar para desempacotar .../10-libneon27_0.32.2-1_amd64.deb ...
+A descompactar libneon27:amd64 (0.32.2-1) ...
+A seleccionar pacote anteriormente não seleccionado libodbc2:amd64.
+A preparar para desempacotar .../11-libodbc2_2.3.9-5ubuntu0.1_amd64.deb ...
+A descompactar libodbc2:amd64 (2.3.9-5ubuntu0.1) ...
+A seleccionar pacote anteriormente não seleccionado libopencore-amrnb0:amd64.
+A preparar para desempacotar .../12-libopencore-amrnb0_0.1.5-1_amd64.deb ...
+A descompactar libopencore-amrnb0:amd64 (0.1.5-1) ...
+A seleccionar pacote anteriormente não seleccionado libopencore-amrwb0:amd64.
+A preparar para desempacotar .../13-libopencore-amrwb0_0.1.5-1_amd64.deb ...
+A descompactar libopencore-amrwb0:amd64 (0.1.5-1) ...
+A seleccionar pacote anteriormente não seleccionado libopusfile0.
+A preparar para desempacotar .../14-libopusfile0_0.9+20170913-1.1build1_amd64.deb ...
+A descompactar libopusfile0 (0.9+20170913-1.1build1) ...
+A seleccionar pacote anteriormente não seleccionado libportaudio2:amd64.
+A preparar para desempacotar .../15-libportaudio2_19.6.0-1.1_amd64.deb ...
+A descompactar libportaudio2:amd64 (19.6.0-1.1) ...
+A seleccionar pacote anteriormente não seleccionado libpq5:amd64.
+A preparar para desempacotar .../16-libpq5_14.12-0ubuntu0.22.04.1_amd64.deb ...
+A descompactar libpq5:amd64 (14.12-0ubuntu0.22.04.1) ...
+A seleccionar pacote anteriormente não seleccionado libradcli4.
+A preparar para desempacotar .../17-libradcli4_1.2.11-1build1_amd64.deb ...
+A descompactar libradcli4 (1.2.11-1build1) ...
+A seleccionar pacote anteriormente não seleccionado libresample1.
+A preparar para desempacotar .../18-libresample1_0.1.3-5_amd64.deb ...
+A descompactar libresample1 (0.1.3-5) ...
+A seleccionar pacote anteriormente não seleccionado libspandsp2:amd64.
+A preparar para desempacotar .../19-libspandsp2_0.0.6+dfsg-2_amd64.deb ...
+A descompactar libspandsp2:amd64 (0.0.6+dfsg-2) ...
+A seleccionar pacote anteriormente não seleccionado libsrtp2-1:amd64.
+A preparar para desempacotar .../20-libsrtp2-1_2.4.2-2_amd64.deb ...
+A descompactar libsrtp2-1:amd64 (2.4.2-2) ...
+A seleccionar pacote anteriormente não seleccionado freetds-common.
+A preparar para desempacotar .../21-freetds-common_1.3.6-1_all.deb ...
+A descompactar freetds-common (1.3.6-1) ...
+A seleccionar pacote anteriormente não seleccionado libsybdb5:amd64.
+A preparar para desempacotar .../22-libsybdb5_1.3.6-1_amd64.deb ...
+A descompactar libsybdb5:amd64 (1.3.6-1) ...
+A seleccionar pacote anteriormente não seleccionado libunbound8:amd64.
+A preparar para desempacotar .../23-libunbound8_1.13.1-1ubuntu5.5_amd64.deb ...
+A descompactar libunbound8:amd64 (1.13.1-1ubuntu5.5) ...
+A seleccionar pacote anteriormente não seleccionado libvo-amrwbenc0:amd64.
+A preparar para desempacotar .../24-libvo-amrwbenc0_0.1.3-2_amd64.deb ...
+A descompactar libvo-amrwbenc0:amd64 (0.1.3-2) ...
+A seleccionar pacote anteriormente não seleccionado asterisk-modules.
+A preparar para desempacotar .../25-asterisk-modules_1%3a18.10.0~dfsg+~cs6.10.40431411-2_amd64.deb ...
+A descompactar asterisk-modules (1:18.10.0~dfsg+~cs6.10.40431411-2) ...
+A seleccionar pacote anteriormente não seleccionado liburiparser1:amd64.
+A preparar para desempacotar .../26-liburiparser1_0.9.6+dfsg-1_amd64.deb ...
+A descompactar liburiparser1:amd64 (0.9.6+dfsg-1) ...
+A seleccionar pacote anteriormente não seleccionado asterisk.
+A preparar para desempacotar .../27-asterisk_1%3a18.10.0~dfsg+~cs6.10.40431411-2_amd64.deb ...
+A descompactar asterisk (1:18.10.0~dfsg+~cs6.10.40431411-2) ...
+A seleccionar pacote anteriormente não seleccionado libsox3:amd64.
+A preparar para desempacotar .../28-libsox3_14.4.2+git20190427-2+deb11u2ubuntu0.22.04.1_amd64.deb ...
+A descompactar libsox3:amd64 (14.4.2+git20190427-2+deb11u2ubuntu0.22.04.1) ...
+A seleccionar pacote anteriormente não seleccionado libsox-fmt-alsa:amd64.
+A preparar para desempacotar .../29-libsox-fmt-alsa_14.4.2+git20190427-2+deb11u2ubuntu0.22.04.1_amd64.deb ...
+A descompactar libsox-fmt-alsa:amd64 (14.4.2+git20190427-2+deb11u2ubuntu0.22.04.1) ...
+A seleccionar pacote anteriormente não seleccionado libsox-fmt-base:amd64.
+A preparar para desempacotar .../30-libsox-fmt-base_14.4.2+git20190427-2+deb11u2ubuntu0.22.04.1_amd64.deb ...
+A descompactar libsox-fmt-base:amd64 (14.4.2+git20190427-2+deb11u2ubuntu0.22.04.1) ...
+A seleccionar pacote anteriormente não seleccionado net-tools.
+A preparar para desempacotar .../31-net-tools_1.60+git20181103.0eebece-1ubuntu5_amd64.deb ...
+A descompactar net-tools (1.60+git20181103.0eebece-1ubuntu5) ...
+A seleccionar pacote anteriormente não seleccionado sox.
+A preparar para desempacotar .../32-sox_14.4.2+git20190427-2+deb11u2ubuntu0.22.04.1_amd64.deb ...
+A descompactar sox (14.4.2+git20190427-2+deb11u2ubuntu0.22.04.1) ...
+A seleccionar pacote anteriormente não seleccionado asterisk-moh-opsound-gsm.
+A preparar para desempacotar .../33-asterisk-moh-opsound-gsm_2.03-1.1_all.deb ...
+A descompactar asterisk-moh-opsound-gsm (2.03-1.1) ...
+Configurando libgmime-3.0-0:amd64 (3.2.7-1) ...
+Configurando libportaudio2:amd64 (19.6.0-1.1) ...
+Configurando libvo-amrwbenc0:amd64 (0.1.3-2) ...
+Configurando net-tools (1.60+git20181103.0eebece-1ubuntu5) ...
+Configurando libcodec2-1.0:amd64 (1.0.1-3) ...
+Configurando libgsm1:amd64 (1.0.19-1) ...
+Configurando asterisk-core-sounds-en-gsm (1.6.1-1) ...
+Configurando mlock (8:2007f~dfsg-7build1) ...
+Configurando libsrtp2-1:amd64 (2.4.2-2) ...
+Configurando libpq5:amd64 (14.12-0ubuntu0.22.04.1) ...
+Configurando libspandsp2:amd64 (0.0.6+dfsg-2) ...
+Configurando libopencore-amrwb0:amd64 (0.1.5-1) ...
+Configurando libunbound8:amd64 (1.13.1-1ubuntu5.5) ...
+Configurando libradcli4 (1.2.11-1build1) ...
+Configurando asterisk-config (1:18.10.0~dfsg+~cs6.10.40431411-2) ...
+Configurando asterisk-core-sounds-en (1.6.1-1) ...
+update-alternatives: a usar /usr/share/asterisk/sounds/en_US_f_Allison para disponibilizar /usr/share/asterisk/sounds/en (asterisk-prompt-en) em modo auto
+update-alternatives: a usar /usr/share/asterisk/sounds/en_US_f_Allison para disponibilizar /usr/share/asterisk/sounds/en_US (asterisk-prompt-en-us) em modo auto
+Configurando libiksemel3:amd64 (1.4-4) ...
+Configurando libodbc2:amd64 (2.3.9-5ubuntu0.1) ...
+Configurando liburiparser1:amd64 (0.9.6+dfsg-1) ...
+Configurando liblua5.2-0:amd64 (5.2.4-2) ...
+Configurando libneon27:amd64 (0.32.2-1) ...
+Configurando asterisk-moh-opsound-gsm (2.03-1.1) ...
+Configurando libopencore-amrnb0:amd64 (0.1.5-1) ...
+Configurando libc-client2007e (8:2007f~dfsg-7build1) ...
+Configurando libresample1 (0.1.3-5) ...
+Configurando freetds-common (1.3.6-1) ...
+Configurando libopusfile0 (0.9+20170913-1.1build1) ...
+Configurando libsox3:amd64 (14.4.2+git20190427-2+deb11u2ubuntu0.22.04.1) ...
+Configurando libsybdb5:amd64 (1.3.6-1) ...
+Configurando libsox-fmt-alsa:amd64 (14.4.2+git20190427-2+deb11u2ubuntu0.22.04.1) ...
+Configurando libsox-fmt-base:amd64 (14.4.2+git20190427-2+deb11u2ubuntu0.22.04.1) ...
+Configurando asterisk-modules (1:18.10.0~dfsg+~cs6.10.40431411-2) ...
+Configurando asterisk (1:18.10.0~dfsg+~cs6.10.40431411-2) ...
+Adding system user for Asterisk
+Adicionando o usuário `asterisk' ao grupo `dialout' ...
+Adicionando usuário asterisk ao grupo dialout
+Concluído.
+Adicionando o usuário `asterisk' ao grupo `audio' ...
+Adicionando usuário asterisk ao grupo audio
+Concluído.
+Created symlink /etc/systemd/system/multi-user.target.wants/asterisk.service → /lib/systemd/system/asterisk.service.
+Configurando sox (14.4.2+git20190427-2+deb11u2ubuntu0.22.04.1) ...
+A processar 'triggers' para libc-bin (2.35-0ubuntu3.1) ...
+A processar 'triggers' para man-db (2.10.2-1) ...
+A processar 'triggers' para mailcap (3.70+nmu1ubuntu1) ...
+aluno@aluno:~$ ss -lnt
+State       Recv-Q      Send-Q           Local Address:Port           Peer Address:Port     Process     
+LISTEN      0           4096             127.0.0.53%lo:53                  0.0.0.0:*                    
+LISTEN      0           128                  127.0.0.1:631                 0.0.0.0:*                    
+LISTEN      0           10                   127.0.0.1:5038                0.0.0.0:*                    
+LISTEN      0           128                      [::1]:631                    [::]:*                    
+aluno@aluno:~$ ss -lnt
+State       Recv-Q      Send-Q           Local Address:Port           Peer Address:Port     Process     
+LISTEN      0           4096             127.0.0.53%lo:53                  0.0.0.0:*                    
+LISTEN      0           128                  127.0.0.1:631                 0.0.0.0:*                    
+LISTEN      0           10                   127.0.0.1:5038                0.0.0.0:*                    
+LISTEN      0           128                      [::1]:631                    [::]:*                    
+aluno@aluno:~$ ss -lnt
+State       Recv-Q      Send-Q           Local Address:Port           Peer Address:Port     Process     
+LISTEN      0           4096             127.0.0.53%lo:53                  0.0.0.0:*                    
+LISTEN      0           128                  127.0.0.1:631                 0.0.0.0:*                    
+LISTEN      0           10                   127.0.0.1:5038                0.0.0.0:*                    
+LISTEN      0           128                      [::1]:631                    [::]:*                    
+aluno@aluno:~$ ss -lnt
+State       Recv-Q      Send-Q           Local Address:Port           Peer Address:Port     Process     
+LISTEN      0           4096             127.0.0.53%lo:53                  0.0.0.0:*                    
+LISTEN      0           128                  127.0.0.1:631                 0.0.0.0:*                    
+LISTEN      0           10                   127.0.0.1:5038                0.0.0.0:*                    
+LISTEN      0           128                      [::1]:631                    [::]:*                    
+aluno@aluno:~$ ss -lnt
+State       Recv-Q      Send-Q           Local Address:Port           Peer Address:Port     Process     
+LISTEN      0           4096             127.0.0.53%lo:53                  0.0.0.0:*                    
+LISTEN      0           128                  127.0.0.1:631                 0.0.0.0:*                    
+LISTEN      0           10                   127.0.0.1:5038                0.0.0.0:*                    
+LISTEN      0           128                      [::1]:631                    [::]:*                    
+aluno@aluno:~$ ss -lnt
+State       Recv-Q      Send-Q           Local Address:Port           Peer Address:Port     Process     
+LISTEN      0           4096             127.0.0.53%lo:53                  0.0.0.0:*                    
+LISTEN      0           128                  127.0.0.1:631                 0.0.0.0:*                    
+LISTEN      0           10                   127.0.0.1:5038                0.0.0.0:*                    
+LISTEN      0           128                      [::1]:631                    [::]:*                    
+aluno@aluno:~$ ss -lnt
+State       Recv-Q      Send-Q           Local Address:Port           Peer Address:Port     Process     
+LISTEN      0           4096             127.0.0.53%lo:53                  0.0.0.0:*                    
+LISTEN      0           128                    0.0.0.0:22                  0.0.0.0:*                    
+LISTEN      0           128                  127.0.0.1:631                 0.0.0.0:*                    
+LISTEN      0           10                   127.0.0.1:5038                0.0.0.0:*                    
+LISTEN      0           128                       [::]:22                     [::]:*                    
+LISTEN      0           128                      [::1]:631                    [::]:*                    
+aluno@aluno:~$ ss -lnt
+State       Recv-Q      Send-Q           Local Address:Port           Peer Address:Port     Process     
+LISTEN      0           4096             127.0.0.53%lo:53                  0.0.0.0:*                    
+LISTEN      0           128                    0.0.0.0:22                  0.0.0.0:*                    
+LISTEN      0           128                  127.0.0.1:631                 0.0.0.0:*                    
+LISTEN      0           10                   127.0.0.1:5038                0.0.0.0:*                    
+LISTEN      0           128                       [::]:22                     [::]:*                    
+LISTEN      0           128                      [::1]:631                    [::]:*                    
+aluno@aluno:~$ ss -lnt
+State       Recv-Q      Send-Q           Local Address:Port           Peer Address:Port     Process     
+LISTEN      0           4096             127.0.0.53%lo:53                  0.0.0.0:*                    
+LISTEN      0           128                    0.0.0.0:22                  0.0.0.0:*                    
+LISTEN      0           128                  127.0.0.1:631                 0.0.0.0:*                    
+LISTEN      0           10                   127.0.0.1:5038                0.0.0.0:*                    
+LISTEN      0           128                       [::]:22                     [::]:*                    
+LISTEN      0           128                      [::1]:631                    [::]:*                    
+aluno@aluno:~$ ip -4 a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    inet 191.36.13.41/26 brd 191.36.13.63 scope global dynamic noprefixroute enp0s3
+       valid_lft 991sec preferred_lft 991sec
+aluno@aluno:~$ ^C
+aluno@aluno:~$ ^C
+aluno@aluno:~$ ^C
+aluno@aluno:~$ sudo systemctl restart openssh-server
+Failed to restart openssh-server.service: Unit openssh-server.service not found.
+aluno@aluno:~$ sudo systemctl restart sshd
+aluno@aluno:~$ vi /etc/ssh/sshd_config
+aluno@aluno:~$ sudo vi /etc/ssh/sshd_config
+aluno@aluno:~$ 
+aluno@aluno:~$ 
+aluno@aluno:~$ sudo systemctl restart sshd
+aluno@aluno:~$ ss -lnt
+State       Recv-Q      Send-Q           Local Address:Port           Peer Address:Port     Process     
+LISTEN      0           4096             127.0.0.53%lo:53                  0.0.0.0:*                    
+LISTEN      0           128                  127.0.0.1:631                 0.0.0.0:*                    
+LISTEN      0           128                    0.0.0.0:2222                0.0.0.0:*                    
+LISTEN      0           10                   127.0.0.1:5038                0.0.0.0:*                    
+LISTEN      0           128                      [::1]:631                    [::]:*                    
+LISTEN      0           128                       [::]:2222                   [::]:*                    
+aluno@aluno:~$ sudo apt-get install telnet 
+Lendo listas de pacotes... Pronto
+Construindo árvore de dependências... Pronto
+Lendo informação de estado... Pronto        
+telnet já é a versão mais recente (0.17-44build1).
+telnet configurado para instalar manualmente.
+0 pacotes atualizados, 0 pacotes novos instalados, 0 a serem removidos e 513 não atualizados.
+aluno@aluno:~$ sudo apt-get install telnetd
+Lendo listas de pacotes... Pronto
+Construindo árvore de dependências... Pronto
+Lendo informação de estado... Pronto        
+Os pacotes adicionais seguintes serão instalados:
+  openbsd-inetd tcpd
+Os NOVOS pacotes a seguir serão instalados:
+  openbsd-inetd tcpd telnetd
+0 pacotes atualizados, 3 pacotes novos instalados, 0 a serem removidos e 513 não atualizados.
+É preciso baixar 92,2 kB de arquivos.
+Depois desta operação, 318 kB adicionais de espaço em disco serão usados.
+Você quer continuar? [S/n] S
+Obter:1 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 tcpd amd64 7.6.q-31build2 [25,2 kB]
+Obter:2 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 openbsd-inetd amd64 0.20160825-5 [26,3 kB]
+Obter:3 http://br.archive.ubuntu.com/ubuntu jammy/universe amd64 telnetd amd64 0.17-44build1 [40,7 kB]
+Baixados 92,2 kB em 0s (296 kB/s)  
+A seleccionar pacote anteriormente não seleccionado tcpd.
+(Lendo banco de dados ... 208950 ficheiros e directórios actualmente instalados.)
+A preparar para desempacotar .../tcpd_7.6.q-31build2_amd64.deb ...
+A descompactar tcpd (7.6.q-31build2) ...
+A seleccionar pacote anteriormente não seleccionado openbsd-inetd.
+A preparar para desempacotar .../openbsd-inetd_0.20160825-5_amd64.deb ...
+A descompactar openbsd-inetd (0.20160825-5) ...
+A seleccionar pacote anteriormente não seleccionado telnetd.
+A preparar para desempacotar .../telnetd_0.17-44build1_amd64.deb ...
+A descompactar telnetd (0.17-44build1) ...
+Configurando tcpd (7.6.q-31build2) ...
+Configurando openbsd-inetd (0.20160825-5) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/inetd.service → /lib/systemd/system/inetd.service.
+Configurando telnetd (0.17-44build1) ...
+Adicionando usuário telnetd ao grupo utmp
+A processar 'triggers' para man-db (2.10.2-1) ...
+aluno@aluno:~$ ss -lnt
+State       Recv-Q      Send-Q           Local Address:Port           Peer Address:Port     Process     
+LISTEN      0           4096             127.0.0.53%lo:53                  0.0.0.0:*                    
+LISTEN      0           128                    0.0.0.0:23                  0.0.0.0:*                    
+LISTEN      0           128                  127.0.0.1:631                 0.0.0.0:*                    
+LISTEN      0           128                    0.0.0.0:2222                0.0.0.0:*                    
+LISTEN      0           10                   127.0.0.1:5038                0.0.0.0:*                    
+LISTEN      0           128                      [::1]:631                    [::]:*                    
+LISTEN      0           128                       [::]:2222                   [::]:*                    
+aluno@aluno:~$ 
+aluno@aluno:~$ 
+aluno@aluno:~$ 
+aluno@aluno:~$ 
+aluno@aluno:~$ 
+aluno@aluno:~$ 
+aluno@aluno:~$ 
+aluno@aluno:~$ 
+aluno@aluno:~$ 
+aluno@aluno:~$ asterisk -r
+Unable to open specified master config file '/etc/asterisk/asterisk.conf', using built-in defaults
+Unable to connect to remote asterisk (does /var/run/asterisk/asterisk.ctl exist?)
+aluno@aluno:~$ sudo asterisk -r
+Asterisk 18.10.0~dfsg+~cs6.10.40431411-2, Copyright (C) 1999 - 2021, Sangoma Technologies Corporation and others.
+Created by Mark Spencer <markster@digium.com>
+Asterisk comes with ABSOLUTELY NO WARRANTY; type 'core show warranty' for details.
+This is free software, with components licensed under the GNU General Public
+License version 2 and other licenses; you are welcome to redistribute it under
+certain conditions. Type 'core show license' for details.
+=========================================================================
+Connected to Asterisk 18.10.0~dfsg+~cs6.10.40431411-2 currently running on aluno (pid = 4698)
+aluno*CLI> 
+aluno*CLI> 
+aluno*CLI> 
+aluno*CLI> quit
+Asterisk cleanly ending (0).
+Executing last minute cleanups
+aluno@aluno:~$ cd /etc/asterisk/
+aluno@aluno:/etc/asterisk$ ls -l
+total 1008
+-rw-r----- 1 asterisk asterisk  2816 fev 12  2022 acl.conf
+-rw-r----- 1 asterisk asterisk   140 fev 12  2022 adsi.conf
+-rw-r----- 1 asterisk asterisk  2097 fev 12  2022 agents.conf
+-rw-r----- 1 asterisk asterisk  2328 fev 12  2022 alarmreceiver.conf
+-rw-r----- 1 asterisk asterisk  3497 fev 12  2022 alsa.conf
+-rw-r----- 1 asterisk asterisk  1196 fev 12  2022 amd.conf
+-rw-r----- 1 asterisk asterisk  1043 fev 12  2022 app_mysql.conf
+-rw-r----- 1 asterisk asterisk   338 fev 12  2022 app_skel.conf
+-rw-r----- 1 asterisk asterisk  1521 fev 12  2022 ari.conf
+-rw-r----- 1 asterisk asterisk  2276 fev 12  2022 ast_debug_tools.conf
+-rw-r----- 1 asterisk asterisk  3253 fev 12  2022 asterisk.adsi
+-rw-r----- 1 asterisk asterisk  6142 fev 12  2022 asterisk.conf
+-rw-r----- 1 asterisk asterisk  5261 fev 12  2022 calendar.conf
+-rw-r----- 1 asterisk asterisk  8827 fev 12  2022 ccss.conf
+-rw-r----- 1 asterisk asterisk  2676 fev 12  2022 cdr_adaptive_odbc.conf
+-rw-r----- 1 asterisk asterisk  1052 fev 12  2022 cdr_beanstalkd.conf
+-rw-r----- 1 asterisk asterisk  8436 fev 12  2022 cdr.conf
+-rw-r----- 1 asterisk asterisk  1617 fev 12  2022 cdr_custom.conf
+-rw-r----- 1 asterisk asterisk   418 fev 12  2022 cdr_manager.conf
+-rw-r----- 1 asterisk asterisk  2395 fev 12  2022 cdr_mysql.conf
+-rw-r----- 1 asterisk asterisk   357 fev 12  2022 cdr_odbc.conf
+-rw-r----- 1 asterisk asterisk   597 fev 12  2022 cdr_pgsql.conf
+-rw-r----- 1 asterisk asterisk   971 fev 12  2022 cdr_sqlite3_custom.conf
+-rw-r----- 1 asterisk asterisk  3301 fev 12  2022 cdr_syslog.conf
+-rw-r----- 1 asterisk asterisk  2067 fev 12  2022 cdr_tds.conf
+-rw-r----- 1 asterisk asterisk   819 fev 12  2022 cel_beanstalkd.conf
+-rw-r----- 1 asterisk asterisk  3805 fev 12  2022 cel.conf
+-rw-r----- 1 asterisk asterisk  2035 fev 12  2022 cel_custom.conf
+-rw-r----- 1 asterisk asterisk  3155 fev 12  2022 cel_odbc.conf
+-rw-r----- 1 asterisk asterisk  1597 fev 12  2022 cel_pgsql.conf
+-rw-r----- 1 asterisk asterisk  1547 fev 12  2022 cel_sqlite3_custom.conf
+-rw-r----- 1 asterisk asterisk  1883 fev 12  2022 cel_tds.conf
+-rw-r----- 1 asterisk asterisk 69185 fev 12  2022 chan_dahdi.conf
+-rw-r----- 1 asterisk asterisk  2226 fev 12  2022 chan_mobile.conf
+-rw-r----- 1 asterisk asterisk  7226 fev 12  2022 cli_aliases.conf
+-rw-r----- 1 asterisk asterisk   264 fev 12  2022 cli.conf
+-rw-r----- 1 asterisk asterisk  2450 fev 12  2022 cli_permissions.conf
+-rw-r----- 1 asterisk asterisk  7657 fev 12  2022 codecs.conf
+-rw-r----- 1 asterisk asterisk 29969 fev 12  2022 confbridge.conf
+-rw-r----- 1 asterisk asterisk   812 fev 12  2022 config_test.conf
+-rw-r----- 1 asterisk asterisk  4456 fev 12  2022 console.conf
+-rw-r----- 1 asterisk asterisk  1163 fev 12  2022 dbsep.conf
+-rw-r----- 1 asterisk asterisk   190 fev 12  2022 dnsmgr.conf
+-rw-r----- 1 asterisk asterisk  1732 fev 12  2022 dsp.conf
+-rw-r----- 1 asterisk asterisk   592 fev 12  2022 enum.conf
+-rw-r----- 1 asterisk asterisk  4191 fev 12  2022 extconfig.conf
+-rw-r----- 1 asterisk asterisk 12777 fev 12  2022 extensions.ael
+-rw-r----- 1 asterisk asterisk 32070 fev 12  2022 extensions.conf
+-rw-r----- 1 asterisk asterisk  7022 fev 12  2022 extensions.lua
+-rw-r----- 1 asterisk asterisk  7421 fev 12  2022 extensions_minivm.conf
+-rw-r----- 1 asterisk asterisk  8139 fev 12  2022 features.conf
+-rw-r----- 1 asterisk asterisk   922 fev 12  2022 festival.conf
+-rw-r----- 1 asterisk asterisk  4538 fev 12  2022 followme.conf
+-rw-r----- 1 asterisk asterisk  6829 fev 12  2022 func_odbc.conf
+-rw-r----- 1 asterisk asterisk  1791 fev 12  2022 hep.conf
+-rw-r----- 1 asterisk asterisk  5540 fev 12  2022 http.conf
+-rw-r----- 1 asterisk asterisk 27228 fev 12  2022 iax.conf
+-rw-r----- 1 asterisk asterisk  2401 fev 12  2022 iaxprov.conf
+-rw-r----- 1 asterisk asterisk 25659 fev 12  2022 indications.conf
+-rw-r----- 1 asterisk asterisk  7555 fev 12  2022 logger.conf
+-rw-r----- 1 asterisk asterisk   363 fev  3  2022 manager.conf
+drwxr-xr-x 2 root     root      4096 jul 19 08:09 manager.d
+-rw-r----- 1 asterisk asterisk  1518 fev 12  2022 meetme.conf
+-rw-r----- 1 asterisk asterisk  9926 fev 12  2022 minivm.conf
+-rw-r----- 1 asterisk asterisk 14752 fev 12  2022 misdn.conf
+-rw-r----- 1 asterisk asterisk  2011 fev  3  2022 modules.conf
+-rw-r----- 1 asterisk asterisk  4669 fev 12  2022 motif.conf
+-rw-r----- 1 asterisk asterisk  5938 fev 12  2022 musiconhold.conf
+-rw-r----- 1 asterisk asterisk  1285 fev 12  2022 muted.conf
+-rw-r----- 1 asterisk asterisk  5912 fev 12  2022 ooh323.conf
+-rw-r----- 1 asterisk asterisk  3900 fev 12  2022 osp.conf
+-rw-r----- 1 asterisk asterisk  7460 fev 12  2022 oss.conf
+-rw-r----- 1 asterisk asterisk  1577 fev 12  2022 phone.conf
+-rw-r----- 1 asterisk asterisk  7839 fev 12  2022 phoneprov.conf
+-rw-r----- 1 asterisk asterisk  2837 fev 12  2022 pjproject.conf
+-rw-r----- 1 asterisk asterisk 79397 fev 12  2022 pjsip.conf
+-rw-r----- 1 asterisk asterisk   790 fev 12  2022 pjsip_notify.conf
+-rw-r----- 1 asterisk asterisk  6845 fev 12  2022 pjsip_wizard.conf
+-rw-r----- 1 asterisk asterisk  3577 fev 12  2022 prometheus.conf
+-rw-r----- 1 asterisk asterisk  2868 fev 12  2022 queuerules.conf
+-rw-r----- 1 asterisk asterisk 25014 fev 12  2022 queues.conf
+-rw-r----- 1 asterisk asterisk  2060 fev 12  2022 res_config_mysql.conf
+-rw-r----- 1 asterisk asterisk  1494 fev 12  2022 res_config_sqlite3.conf
+-rw-r----- 1 asterisk asterisk   380 fev 12  2022 res_config_sqlite.conf
+-rw-r----- 1 asterisk asterisk   876 fev 12  2022 res_corosync.conf
+-rw-r----- 1 asterisk asterisk   186 fev 12  2022 res_curl.conf
+-rw-r----- 1 asterisk asterisk  1071 fev 12  2022 res_fax.conf
+-rw-r----- 1 asterisk asterisk  7107 fev 12  2022 res_ldap.conf
+-rw-r----- 1 asterisk asterisk  5026 fev 12  2022 res_odbc.conf
+-rw-r----- 1 asterisk asterisk  1526 fev 12  2022 resolver_unbound.conf
+-rw-r----- 1 asterisk asterisk 11042 fev 12  2022 res_parking.conf
+-rw-r----- 1 asterisk asterisk  1089 fev 12  2022 res_pgsql.conf
+-rw-r----- 1 asterisk asterisk   713 fev 12  2022 res_pktccops.conf
+-rw-r----- 1 asterisk asterisk   833 fev 12  2022 res_snmp.conf
+-rw-r----- 1 asterisk asterisk  1350 fev 12  2022 res_stun_monitor.conf
+-rw-r----- 1 asterisk asterisk  6846 fev 12  2022 rtp.conf
+-rw-r----- 1 asterisk asterisk 17079 fev 12  2022 say.conf
+-rw-r----- 1 asterisk asterisk 95257 fev 12  2022 sip.conf
+-rw-r----- 1 asterisk asterisk   790 fev 12  2022 sip_notify.conf
+-rw-r----- 1 asterisk asterisk  7090 fev 12  2022 sla.conf
+-rw-r----- 1 asterisk asterisk  2669 fev 12  2022 smdi.conf
+-rw-r----- 1 asterisk asterisk  2501 fev 12  2022 sorcery.conf
+-rw-r----- 1 asterisk asterisk  1503 fev 12  2022 ss7.timers
+-rw-r----- 1 asterisk asterisk  5121 fev 12  2022 stasis.conf
+-rw-r----- 1 asterisk asterisk   541 fev 12  2022 statsd.conf
+-rw-r----- 1 asterisk asterisk  2972 fev 12  2022 stir_shaken.conf
+-rw-r----- 1 asterisk asterisk  1384 fev 12  2022 telcordia-1.adsi
+-rw-r----- 1 asterisk asterisk   152 fev 12  2022 test_sorcery.conf
+-rw-r----- 1 asterisk asterisk   656 fev 12  2022 udptl.conf
+-rw-r----- 1 asterisk asterisk  2570 fev 12  2022 users.conf
+-rw-r----- 1 asterisk asterisk 26402 fev 12  2022 voicemail.conf
+-rw-r----- 1 asterisk asterisk  5938 fev 12  2022 vpb.conf
+-rw-r----- 1 asterisk asterisk  3734 fev 12  2022 xmpp.conf
+aluno@aluno:/etc/asterisk$ sudo vi sip.conf 
+aluno@aluno:/etc/asterisk$ 
+aluno@aluno:/etc/asterisk$ 
+aluno@aluno:/etc/asterisk$ sudo rm sip.conf 
+aluno@aluno:/etc/asterisk$ sudo vi sip.conf 
+aluno@aluno:/etc/asterisk$ sudo adduser 
+adduser: Somente um ou dois nomes permitidos.
+aluno@aluno:/etc/asterisk$ adduser
+adduser: Somente root pode acrescentar um usuário ou grupo ao sistema.
+aluno@aluno:/etc/asterisk$ sudo su
+root@aluno:/etc/asterisk# adduser
+adduser: Somente um ou dois nomes permitidos.
+root@aluno:/etc/asterisk# adduser cadore
+Adicionando o usuário `cadore' ...
+Adicionando novo grupo 'cadore' (1001) ...
+Adicionando novo usuário `cadore' (1001) ao grupo `cadore' ...
+Criando diretório pessoal `/home/cadore' ...
+Copiando arquivos de '/etc/skel' ...
+Nova senha: 
+SENHA INCORRETA: A senha é menor do que 8 caracteres
+Redigite a nova senha: 
+As senhas não são iguais.
+Nova senha: 
+SENHA INCORRETA: A senha contém o nome de usuário em algum formulário
+Redigite a nova senha: 
+passwd: senha atualizada com sucesso
+Modificando as informações de usuário para cadore
+Informe o novo valor ou pressione ENTER para aceitar o padrão
+	Nome Completo []: 
+	Número da Sala []: 
+	Fone de Trabalho []: 
+	Fone Residencial []: 
+	Outro []: 
+A informação está correta? [S/n] s
+root@aluno:/etc/asterisk# 
+root@aluno:/etc/asterisk# 
+root@aluno:/etc/asterisk# 
+root@aluno:/etc/asterisk# exit
+exit
+aluno@aluno:/etc/asterisk$ 
+aluno@aluno:/etc/asterisk$ cd ~
+aluno@aluno:~$ ls -l
+total 36
+drwxr-xr-x 2 aluno aluno 4096 jun 30  2022 'Área de Trabalho'
+drwxr-xr-x 2 aluno aluno 4096 jun 30  2022  Documentos
+drwxr-xr-x 3 aluno aluno 4096 mai  3 11:15  Downloads
+drwxr-xr-x 2 aluno aluno 4096 jun 30  2022  Imagens
+drwxr-xr-x 2 aluno aluno 4096 jun 30  2022  Modelos
+drwxr-xr-x 2 aluno aluno 4096 jun 30  2022  Música
+drwxr-xr-x 2 aluno aluno 4096 jun 30  2022  Público
+drwx------ 4 aluno aluno 4096 mai  3 11:15  snap
+drwxr-xr-x 2 aluno aluno 4096 jun 30  2022  Vídeos
+aluno@aluno:~$ cd ..
+aluno@aluno:/home$ ls -l
+total 8
+drwxr-x--- 16 aluno  aluno  4096 jul 19 08:06 aluno
+drwxr-x---  6 cadore cadore 4096 jul 19 08:34 cadore
+aluno@aluno:/home$ cd cadore/
+bash: cd: cadore/: Permissão negada
+aluno@aluno:/home$ sudo su 
+root@aluno:/home# 
+root@aluno:/home# 
+root@aluno:/home# cd cadore/
+root@aluno:/home/cadore# ls -l
+total 16
+-rw-r--r-- 1 cadore cadore  472 jul 19 08:27 extensions.conf
+-rw-r--r-- 1 cadore cadore  351 jul 19 08:27 sip.conf
+drwx------ 3 cadore cadore 4096 jul 19 08:33 snap
+-rw-r--r-- 1 cadore cadore   34 jul 19 08:27 voicemail.conf
+root@aluno:/home/cadore# rm /etc/asterisk/extensions.conf 
+root@aluno:/home/cadore# rm /etc/asterisk/voicemail.conf 
+root@aluno:/home/cadore# 
+root@aluno:/home/cadore# cp ./*.conf /etc/asterisk/
+root@aluno:/home/cadore# cd /etc/asterisk/
+root@aluno:/etc/asterisk# ls -l
+total 864
+-rw-r----- 1 asterisk asterisk  2816 fev 12  2022 acl.conf
+-rw-r----- 1 asterisk asterisk   140 fev 12  2022 adsi.conf
+-rw-r----- 1 asterisk asterisk  2097 fev 12  2022 agents.conf
+-rw-r----- 1 asterisk asterisk  2328 fev 12  2022 alarmreceiver.conf
+-rw-r----- 1 asterisk asterisk  3497 fev 12  2022 alsa.conf
+-rw-r----- 1 asterisk asterisk  1196 fev 12  2022 amd.conf
+-rw-r----- 1 asterisk asterisk  1043 fev 12  2022 app_mysql.conf
+-rw-r----- 1 asterisk asterisk   338 fev 12  2022 app_skel.conf
+-rw-r----- 1 asterisk asterisk  1521 fev 12  2022 ari.conf
+-rw-r----- 1 asterisk asterisk  2276 fev 12  2022 ast_debug_tools.conf
+-rw-r----- 1 asterisk asterisk  3253 fev 12  2022 asterisk.adsi
+-rw-r----- 1 asterisk asterisk  6142 fev 12  2022 asterisk.conf
+-rw-r----- 1 asterisk asterisk  5261 fev 12  2022 calendar.conf
+-rw-r----- 1 asterisk asterisk  8827 fev 12  2022 ccss.conf
+-rw-r----- 1 asterisk asterisk  2676 fev 12  2022 cdr_adaptive_odbc.conf
+-rw-r----- 1 asterisk asterisk  1052 fev 12  2022 cdr_beanstalkd.conf
+-rw-r----- 1 asterisk asterisk  8436 fev 12  2022 cdr.conf
+-rw-r----- 1 asterisk asterisk  1617 fev 12  2022 cdr_custom.conf
+-rw-r----- 1 asterisk asterisk   418 fev 12  2022 cdr_manager.conf
+-rw-r----- 1 asterisk asterisk  2395 fev 12  2022 cdr_mysql.conf
+-rw-r----- 1 asterisk asterisk   357 fev 12  2022 cdr_odbc.conf
+-rw-r----- 1 asterisk asterisk   597 fev 12  2022 cdr_pgsql.conf
+-rw-r----- 1 asterisk asterisk   971 fev 12  2022 cdr_sqlite3_custom.conf
+-rw-r----- 1 asterisk asterisk  3301 fev 12  2022 cdr_syslog.conf
+-rw-r----- 1 asterisk asterisk  2067 fev 12  2022 cdr_tds.conf
+-rw-r----- 1 asterisk asterisk   819 fev 12  2022 cel_beanstalkd.conf
+-rw-r----- 1 asterisk asterisk  3805 fev 12  2022 cel.conf
+-rw-r----- 1 asterisk asterisk  2035 fev 12  2022 cel_custom.conf
+-rw-r----- 1 asterisk asterisk  3155 fev 12  2022 cel_odbc.conf
+-rw-r----- 1 asterisk asterisk  1597 fev 12  2022 cel_pgsql.conf
+-rw-r----- 1 asterisk asterisk  1547 fev 12  2022 cel_sqlite3_custom.conf
+-rw-r----- 1 asterisk asterisk  1883 fev 12  2022 cel_tds.conf
+-rw-r----- 1 asterisk asterisk 69185 fev 12  2022 chan_dahdi.conf
+-rw-r----- 1 asterisk asterisk  2226 fev 12  2022 chan_mobile.conf
+-rw-r----- 1 asterisk asterisk  7226 fev 12  2022 cli_aliases.conf
+-rw-r----- 1 asterisk asterisk   264 fev 12  2022 cli.conf
+-rw-r----- 1 asterisk asterisk  2450 fev 12  2022 cli_permissions.conf
+-rw-r----- 1 asterisk asterisk  7657 fev 12  2022 codecs.conf
+-rw-r----- 1 asterisk asterisk 29969 fev 12  2022 confbridge.conf
+-rw-r----- 1 asterisk asterisk   812 fev 12  2022 config_test.conf
+-rw-r----- 1 asterisk asterisk  4456 fev 12  2022 console.conf
+-rw-r----- 1 asterisk asterisk  1163 fev 12  2022 dbsep.conf
+-rw-r----- 1 asterisk asterisk   190 fev 12  2022 dnsmgr.conf
+-rw-r----- 1 asterisk asterisk  1732 fev 12  2022 dsp.conf
+-rw-r----- 1 asterisk asterisk   592 fev 12  2022 enum.conf
+-rw-r----- 1 asterisk asterisk  4191 fev 12  2022 extconfig.conf
+-rw-r----- 1 asterisk asterisk 12777 fev 12  2022 extensions.ael
+-rw-r--r-- 1 root     root       472 jul 19 08:37 extensions.conf
+-rw-r----- 1 asterisk asterisk  7022 fev 12  2022 extensions.lua
+-rw-r----- 1 asterisk asterisk  7421 fev 12  2022 extensions_minivm.conf
+-rw-r----- 1 asterisk asterisk  8139 fev 12  2022 features.conf
+-rw-r----- 1 asterisk asterisk   922 fev 12  2022 festival.conf
+-rw-r----- 1 asterisk asterisk  4538 fev 12  2022 followme.conf
+-rw-r----- 1 asterisk asterisk  6829 fev 12  2022 func_odbc.conf
+-rw-r----- 1 asterisk asterisk  1791 fev 12  2022 hep.conf
+-rw-r----- 1 asterisk asterisk  5540 fev 12  2022 http.conf
+-rw-r----- 1 asterisk asterisk 27228 fev 12  2022 iax.conf
+-rw-r----- 1 asterisk asterisk  2401 fev 12  2022 iaxprov.conf
+-rw-r----- 1 asterisk asterisk 25659 fev 12  2022 indications.conf
+-rw-r----- 1 asterisk asterisk  7555 fev 12  2022 logger.conf
+-rw-r----- 1 asterisk asterisk   363 fev  3  2022 manager.conf
+drwxr-xr-x 2 root     root      4096 jul 19 08:09 manager.d
+-rw-r----- 1 asterisk asterisk  1518 fev 12  2022 meetme.conf
+-rw-r----- 1 asterisk asterisk  9926 fev 12  2022 minivm.conf
+-rw-r----- 1 asterisk asterisk 14752 fev 12  2022 misdn.conf
+-rw-r----- 1 asterisk asterisk  2011 fev  3  2022 modules.conf
+-rw-r----- 1 asterisk asterisk  4669 fev 12  2022 motif.conf
+-rw-r----- 1 asterisk asterisk  5938 fev 12  2022 musiconhold.conf
+-rw-r----- 1 asterisk asterisk  1285 fev 12  2022 muted.conf
+-rw-r----- 1 asterisk asterisk  5912 fev 12  2022 ooh323.conf
+-rw-r----- 1 asterisk asterisk  3900 fev 12  2022 osp.conf
+-rw-r----- 1 asterisk asterisk  7460 fev 12  2022 oss.conf
+-rw-r----- 1 asterisk asterisk  1577 fev 12  2022 phone.conf
+-rw-r----- 1 asterisk asterisk  7839 fev 12  2022 phoneprov.conf
+-rw-r----- 1 asterisk asterisk  2837 fev 12  2022 pjproject.conf
+-rw-r----- 1 asterisk asterisk 79397 fev 12  2022 pjsip.conf
+-rw-r----- 1 asterisk asterisk   790 fev 12  2022 pjsip_notify.conf
+-rw-r----- 1 asterisk asterisk  6845 fev 12  2022 pjsip_wizard.conf
+-rw-r----- 1 asterisk asterisk  3577 fev 12  2022 prometheus.conf
+-rw-r----- 1 asterisk asterisk  2868 fev 12  2022 queuerules.conf
+-rw-r----- 1 asterisk asterisk 25014 fev 12  2022 queues.conf
+-rw-r----- 1 asterisk asterisk  2060 fev 12  2022 res_config_mysql.conf
+-rw-r----- 1 asterisk asterisk  1494 fev 12  2022 res_config_sqlite3.conf
+-rw-r----- 1 asterisk asterisk   380 fev 12  2022 res_config_sqlite.conf
+-rw-r----- 1 asterisk asterisk   876 fev 12  2022 res_corosync.conf
+-rw-r----- 1 asterisk asterisk   186 fev 12  2022 res_curl.conf
+-rw-r----- 1 asterisk asterisk  1071 fev 12  2022 res_fax.conf
+-rw-r----- 1 asterisk asterisk  7107 fev 12  2022 res_ldap.conf
+-rw-r----- 1 asterisk asterisk  5026 fev 12  2022 res_odbc.conf
+-rw-r----- 1 asterisk asterisk  1526 fev 12  2022 resolver_unbound.conf
+-rw-r----- 1 asterisk asterisk 11042 fev 12  2022 res_parking.conf
+-rw-r----- 1 asterisk asterisk  1089 fev 12  2022 res_pgsql.conf
+-rw-r----- 1 asterisk asterisk   713 fev 12  2022 res_pktccops.conf
+-rw-r----- 1 asterisk asterisk   833 fev 12  2022 res_snmp.conf
+-rw-r----- 1 asterisk asterisk  1350 fev 12  2022 res_stun_monitor.conf
+-rw-r----- 1 asterisk asterisk  6846 fev 12  2022 rtp.conf
+-rw-r----- 1 asterisk asterisk 17079 fev 12  2022 say.conf
+-rw-r--r-- 1 root     root       351 jul 19 08:37 sip.conf
+-rw-r----- 1 asterisk asterisk   790 fev 12  2022 sip_notify.conf
+-rw-r----- 1 asterisk asterisk  7090 fev 12  2022 sla.conf
+-rw-r----- 1 asterisk asterisk  2669 fev 12  2022 smdi.conf
+-rw-r----- 1 asterisk asterisk  2501 fev 12  2022 sorcery.conf
+-rw-r----- 1 asterisk asterisk  1503 fev 12  2022 ss7.timers
+-rw-r----- 1 asterisk asterisk  5121 fev 12  2022 stasis.conf
+-rw-r----- 1 asterisk asterisk   541 fev 12  2022 statsd.conf
+-rw-r----- 1 asterisk asterisk  2972 fev 12  2022 stir_shaken.conf
+-rw-r----- 1 asterisk asterisk  1384 fev 12  2022 telcordia-1.adsi
+-rw-r----- 1 asterisk asterisk   152 fev 12  2022 test_sorcery.conf
+-rw-r----- 1 asterisk asterisk   656 fev 12  2022 udptl.conf
+-rw-r----- 1 asterisk asterisk  2570 fev 12  2022 users.conf
+-rw-r--r-- 1 root     root        34 jul 19 08:37 voicemail.conf
+-rw-r----- 1 asterisk asterisk  5938 fev 12  2022 vpb.conf
+-rw-r----- 1 asterisk asterisk  3734 fev 12  2022 xmpp.conf
+root@aluno:/etc/asterisk# sudo chown
+chown: falta operando
+Tente "chown --help" para mais informações.
+root@aluno:/etc/asterisk# sudo chown asterisk:asterisk ./*
+root@aluno:/etc/asterisk# ls -l
+total 864
+-rw-r----- 1 asterisk asterisk  2816 fev 12  2022 acl.conf
+-rw-r----- 1 asterisk asterisk   140 fev 12  2022 adsi.conf
+-rw-r----- 1 asterisk asterisk  2097 fev 12  2022 agents.conf
+-rw-r----- 1 asterisk asterisk  2328 fev 12  2022 alarmreceiver.conf
+-rw-r----- 1 asterisk asterisk  3497 fev 12  2022 alsa.conf
+-rw-r----- 1 asterisk asterisk  1196 fev 12  2022 amd.conf
+-rw-r----- 1 asterisk asterisk  1043 fev 12  2022 app_mysql.conf
+-rw-r----- 1 asterisk asterisk   338 fev 12  2022 app_skel.conf
+-rw-r----- 1 asterisk asterisk  1521 fev 12  2022 ari.conf
+-rw-r----- 1 asterisk asterisk  2276 fev 12  2022 ast_debug_tools.conf
+-rw-r----- 1 asterisk asterisk  3253 fev 12  2022 asterisk.adsi
+-rw-r----- 1 asterisk asterisk  6142 fev 12  2022 asterisk.conf
+-rw-r----- 1 asterisk asterisk  5261 fev 12  2022 calendar.conf
+-rw-r----- 1 asterisk asterisk  8827 fev 12  2022 ccss.conf
+-rw-r----- 1 asterisk asterisk  2676 fev 12  2022 cdr_adaptive_odbc.conf
+-rw-r----- 1 asterisk asterisk  1052 fev 12  2022 cdr_beanstalkd.conf
+-rw-r----- 1 asterisk asterisk  8436 fev 12  2022 cdr.conf
+-rw-r----- 1 asterisk asterisk  1617 fev 12  2022 cdr_custom.conf
+-rw-r----- 1 asterisk asterisk   418 fev 12  2022 cdr_manager.conf
+-rw-r----- 1 asterisk asterisk  2395 fev 12  2022 cdr_mysql.conf
+-rw-r----- 1 asterisk asterisk   357 fev 12  2022 cdr_odbc.conf
+-rw-r----- 1 asterisk asterisk   597 fev 12  2022 cdr_pgsql.conf
+-rw-r----- 1 asterisk asterisk   971 fev 12  2022 cdr_sqlite3_custom.conf
+-rw-r----- 1 asterisk asterisk  3301 fev 12  2022 cdr_syslog.conf
+-rw-r----- 1 asterisk asterisk  2067 fev 12  2022 cdr_tds.conf
+-rw-r----- 1 asterisk asterisk   819 fev 12  2022 cel_beanstalkd.conf
+-rw-r----- 1 asterisk asterisk  3805 fev 12  2022 cel.conf
+-rw-r----- 1 asterisk asterisk  2035 fev 12  2022 cel_custom.conf
+-rw-r----- 1 asterisk asterisk  3155 fev 12  2022 cel_odbc.conf
+-rw-r----- 1 asterisk asterisk  1597 fev 12  2022 cel_pgsql.conf
+-rw-r----- 1 asterisk asterisk  1547 fev 12  2022 cel_sqlite3_custom.conf
+-rw-r----- 1 asterisk asterisk  1883 fev 12  2022 cel_tds.conf
+-rw-r----- 1 asterisk asterisk 69185 fev 12  2022 chan_dahdi.conf
+-rw-r----- 1 asterisk asterisk  2226 fev 12  2022 chan_mobile.conf
+-rw-r----- 1 asterisk asterisk  7226 fev 12  2022 cli_aliases.conf
+-rw-r----- 1 asterisk asterisk   264 fev 12  2022 cli.conf
+-rw-r----- 1 asterisk asterisk  2450 fev 12  2022 cli_permissions.conf
+-rw-r----- 1 asterisk asterisk  7657 fev 12  2022 codecs.conf
+-rw-r----- 1 asterisk asterisk 29969 fev 12  2022 confbridge.conf
+-rw-r----- 1 asterisk asterisk   812 fev 12  2022 config_test.conf
+-rw-r----- 1 asterisk asterisk  4456 fev 12  2022 console.conf
+-rw-r----- 1 asterisk asterisk  1163 fev 12  2022 dbsep.conf
+-rw-r----- 1 asterisk asterisk   190 fev 12  2022 dnsmgr.conf
+-rw-r----- 1 asterisk asterisk  1732 fev 12  2022 dsp.conf
+-rw-r----- 1 asterisk asterisk   592 fev 12  2022 enum.conf
+-rw-r----- 1 asterisk asterisk  4191 fev 12  2022 extconfig.conf
+-rw-r----- 1 asterisk asterisk 12777 fev 12  2022 extensions.ael
+-rw-r--r-- 1 asterisk asterisk   472 jul 19 08:37 extensions.conf
+-rw-r----- 1 asterisk asterisk  7022 fev 12  2022 extensions.lua
+-rw-r----- 1 asterisk asterisk  7421 fev 12  2022 extensions_minivm.conf
+-rw-r----- 1 asterisk asterisk  8139 fev 12  2022 features.conf
+-rw-r----- 1 asterisk asterisk   922 fev 12  2022 festival.conf
+-rw-r----- 1 asterisk asterisk  4538 fev 12  2022 followme.conf
+-rw-r----- 1 asterisk asterisk  6829 fev 12  2022 func_odbc.conf
+-rw-r----- 1 asterisk asterisk  1791 fev 12  2022 hep.conf
+-rw-r----- 1 asterisk asterisk  5540 fev 12  2022 http.conf
+-rw-r----- 1 asterisk asterisk 27228 fev 12  2022 iax.conf
+-rw-r----- 1 asterisk asterisk  2401 fev 12  2022 iaxprov.conf
+-rw-r----- 1 asterisk asterisk 25659 fev 12  2022 indications.conf
+-rw-r----- 1 asterisk asterisk  7555 fev 12  2022 logger.conf
+-rw-r----- 1 asterisk asterisk   363 fev  3  2022 manager.conf
+drwxr-xr-x 2 asterisk asterisk  4096 jul 19 08:09 manager.d
+-rw-r----- 1 asterisk asterisk  1518 fev 12  2022 meetme.conf
+-rw-r----- 1 asterisk asterisk  9926 fev 12  2022 minivm.conf
+-rw-r----- 1 asterisk asterisk 14752 fev 12  2022 misdn.conf
+-rw-r----- 1 asterisk asterisk  2011 fev  3  2022 modules.conf
+-rw-r----- 1 asterisk asterisk  4669 fev 12  2022 motif.conf
+-rw-r----- 1 asterisk asterisk  5938 fev 12  2022 musiconhold.conf
+-rw-r----- 1 asterisk asterisk  1285 fev 12  2022 muted.conf
+-rw-r----- 1 asterisk asterisk  5912 fev 12  2022 ooh323.conf
+-rw-r----- 1 asterisk asterisk  3900 fev 12  2022 osp.conf
+-rw-r----- 1 asterisk asterisk  7460 fev 12  2022 oss.conf
+-rw-r----- 1 asterisk asterisk  1577 fev 12  2022 phone.conf
+-rw-r----- 1 asterisk asterisk  7839 fev 12  2022 phoneprov.conf
+-rw-r----- 1 asterisk asterisk  2837 fev 12  2022 pjproject.conf
+-rw-r----- 1 asterisk asterisk 79397 fev 12  2022 pjsip.conf
+-rw-r----- 1 asterisk asterisk   790 fev 12  2022 pjsip_notify.conf
+-rw-r----- 1 asterisk asterisk  6845 fev 12  2022 pjsip_wizard.conf
+-rw-r----- 1 asterisk asterisk  3577 fev 12  2022 prometheus.conf
+-rw-r----- 1 asterisk asterisk  2868 fev 12  2022 queuerules.conf
+-rw-r----- 1 asterisk asterisk 25014 fev 12  2022 queues.conf
+-rw-r----- 1 asterisk asterisk  2060 fev 12  2022 res_config_mysql.conf
+-rw-r----- 1 asterisk asterisk  1494 fev 12  2022 res_config_sqlite3.conf
+-rw-r----- 1 asterisk asterisk   380 fev 12  2022 res_config_sqlite.conf
+-rw-r----- 1 asterisk asterisk   876 fev 12  2022 res_corosync.conf
+-rw-r----- 1 asterisk asterisk   186 fev 12  2022 res_curl.conf
+-rw-r----- 1 asterisk asterisk  1071 fev 12  2022 res_fax.conf
+-rw-r----- 1 asterisk asterisk  7107 fev 12  2022 res_ldap.conf
+-rw-r----- 1 asterisk asterisk  5026 fev 12  2022 res_odbc.conf
+-rw-r----- 1 asterisk asterisk  1526 fev 12  2022 resolver_unbound.conf
+-rw-r----- 1 asterisk asterisk 11042 fev 12  2022 res_parking.conf
+-rw-r----- 1 asterisk asterisk  1089 fev 12  2022 res_pgsql.conf
+-rw-r----- 1 asterisk asterisk   713 fev 12  2022 res_pktccops.conf
+-rw-r----- 1 asterisk asterisk   833 fev 12  2022 res_snmp.conf
+-rw-r----- 1 asterisk asterisk  1350 fev 12  2022 res_stun_monitor.conf
+-rw-r----- 1 asterisk asterisk  6846 fev 12  2022 rtp.conf
+-rw-r----- 1 asterisk asterisk 17079 fev 12  2022 say.conf
+-rw-r--r-- 1 asterisk asterisk   351 jul 19 08:37 sip.conf
+-rw-r----- 1 asterisk asterisk   790 fev 12  2022 sip_notify.conf
+-rw-r----- 1 asterisk asterisk  7090 fev 12  2022 sla.conf
+-rw-r----- 1 asterisk asterisk  2669 fev 12  2022 smdi.conf
+-rw-r----- 1 asterisk asterisk  2501 fev 12  2022 sorcery.conf
+-rw-r----- 1 asterisk asterisk  1503 fev 12  2022 ss7.timers
+-rw-r----- 1 asterisk asterisk  5121 fev 12  2022 stasis.conf
+-rw-r----- 1 asterisk asterisk   541 fev 12  2022 statsd.conf
+-rw-r----- 1 asterisk asterisk  2972 fev 12  2022 stir_shaken.conf
+-rw-r----- 1 asterisk asterisk  1384 fev 12  2022 telcordia-1.adsi
+-rw-r----- 1 asterisk asterisk   152 fev 12  2022 test_sorcery.conf
+-rw-r----- 1 asterisk asterisk   656 fev 12  2022 udptl.conf
+-rw-r----- 1 asterisk asterisk  2570 fev 12  2022 users.conf
+-rw-r--r-- 1 asterisk asterisk    34 jul 19 08:37 voicemail.conf
+-rw-r----- 1 asterisk asterisk  5938 fev 12  2022 vpb.conf
+-rw-r----- 1 asterisk asterisk  3734 fev 12  2022 xmpp.conf
+root@aluno:/etc/asterisk# cat voicemail.conf 
+[main]
+7001 => 7001
+
+7002 => 7002
+root@aluno:/etc/asterisk# cat extensions.
+cat: extensions.: Arquivo ou diretório inexistente
+root@aluno:/etc/asterisk# cat extensions.conf 
+[internal]
+exten => 7001,1,Answer()
+exten => 7001,2,Dial(SIP/7001,60)
+exten => 7001,3,Playback(vm-nobodyavail)
+exten => 7001,4,VoiceMail(7001@main)
+exten => 7001,5,Hangup()
+
+exten => 7002,1,Answer()
+exten => 7002,2,Dial(SIP/7002,60)
+exten => 7002,3,Playback(vm-nobodyavail)
+exten => 7002,4,VoiceMail(7001@main)
+exten => 7002,5,Hangup()
+
+exten => 8001,1,VoicemailMain(7001@main)
+exten => 8001,2,Hangup()
+
+exten => 8002,1,VoicemailMain(7002@main)
+exten => 8002,2,Hangup()
+
+
+root@aluno:/etc/asterisk# cat sip.conf 
+[general]
+context=internal
+allowguest=no
+allowoverlap=no
+bindport=5060
+bindaddr=0.0.0.0
+srvlookup=no
+disallow=all
+allow=ulaw
+alwaysauthreject=yes
+canreinvite=no
+nat=yes
+session-timers=refuse
+localnet=192.168.0.0/255.255.255.0
+
+[7001]
+type=friend
+host=dynamic
+secret=7001
+context=internal
+
+[7002]
+type=friend
+host=dynamic
+secret=7002
+context=internal
+
+root@aluno:/etc/asterisk# sudo systemctl restart asterisk 
+root@aluno:/etc/asterisk# sudo systemctl status asterisk 
+● asterisk.service - Asterisk PBX
+     Loaded: loaded (/lib/systemd/system/asterisk.service; enabled; vendor preset: enabled)
+     Active: active (running) since Fri 2024-07-19 08:38:13 -03; 7s ago
+       Docs: man:asterisk(8)
+   Main PID: 8346 (asterisk)
+      Tasks: 80 (limit: 4625)
+     Memory: 42.1M
+        CPU: 1.117s
+     CGroup: /system.slice/asterisk.service
+             ├─8346 /usr/sbin/asterisk -g -f -p -U asterisk
+             └─8347 astcanary /var/run/asterisk/alt.asterisk.canary.tweet.tweet.tweet 8346
+
+jul 19 08:38:12 aluno systemd[1]: Starting Asterisk PBX...
+jul 19 08:38:12 aluno asterisk[8346]: radcli: rc_read_config: rc_read_config: can't open /etc/radiuscli>
+jul 19 08:38:12 aluno asterisk[8346]: radcli: rc_read_config: rc_read_config: can't open /etc/radiuscli>
+jul 19 08:38:13 aluno systemd[1]: Started Asterisk PBX.
+
+root@aluno:/etc/asterisk# ^C
+root@aluno:/etc/asterisk# ^C
+root@aluno:/etc/asterisk# ss -lnt
+State       Recv-Q      Send-Q           Local Address:Port           Peer Address:Port     Process     
+LISTEN      0           4096             127.0.0.53%lo:53                  0.0.0.0:*                    
+LISTEN      0           128                    0.0.0.0:23                  0.0.0.0:*                    
+LISTEN      0           128                  127.0.0.1:631                 0.0.0.0:*                    
+LISTEN      0           10                   127.0.0.1:5038                0.0.0.0:*                    
+LISTEN      0           128                    0.0.0.0:2222                0.0.0.0:*                    
+LISTEN      0           128                      [::1]:631                    [::]:*                    
+LISTEN      0           128                       [::]:2222                   [::]:*                    
+root@aluno:/etc/asterisk# exit
+exit
+aluno@aluno:/home$ 
+aluno@aluno:/home$ 
+aluno@aluno:/home$ 
+aluno@aluno:/home$ sudo asterisk -r 
+Asterisk 18.10.0~dfsg+~cs6.10.40431411-2, Copyright (C) 1999 - 2021, Sangoma Technologies Corporation and others.
+Created by Mark Spencer <markster@digium.com>
+Asterisk comes with ABSOLUTELY NO WARRANTY; type 'core show warranty' for details.
+This is free software, with components licensed under the GNU General Public
+License version 2 and other licenses; you are welcome to redistribute it under
+certain conditions. Type 'core show license' for details.
+=========================================================================
+Connected to Asterisk 18.10.0~dfsg+~cs6.10.40431411-2 currently running on aluno (pid = 8346)
+aluno*CLI> reload
+[Jul 19 08:39:06] NOTICE[8439]: res_config_ldap.c:1832 parse_config: No directory user found, anonymous binding as default.
+[Jul 19 08:39:06] ERROR[8439]: res_config_ldap.c:1858 parse_config: No directory URL or host found.
+[Jul 19 08:39:06] NOTICE[8439]: res_config_ldap.c:1776 reload: Cannot reload LDAP RealTime driver.
+[Jul 19 08:39:06] NOTICE[8439]: cdr.c:4524 cdr_toggle_runtime_options: CDR simple logging enabled.
+[Jul 19 08:39:06] NOTICE[8379]: sorcery.c:1348 sorcery_object_load: Type 'system' is not reloadable, maintaining previous values
+[Jul 19 08:39:06] WARNING[8439]: res_phoneprov.c:1233 get_defaults: Unable to find a valid server address or name.
+[Jul 19 08:39:06] NOTICE[8393]: chan_mgcp.c:4688 reload_config: Unable to load config mgcp.conf, MGCP disabled
+[Jul 19 08:39:06] ERROR[8439]: ari/config.c:312 process_config: No configured users for ARI
+[Jul 19 08:39:06] NOTICE[8439]: cel_custom.c:92 load_config: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Jul 19 08:39:06] NOTICE[8439]: app_queue.c:9286 reload_queue_rules: queuerules.conf has not changed since it was last loaded. Not taking any action.
+aluno*CLI> sip show peers
+Name/username             Host                                    Dyn Forcerport Comedia    ACL Port     Status      Description                      
+7001                      (Unspecified)                            D  Yes        Yes            0        Unmonitored                                  
+7002                      (Unspecified)                            D  Yes        Yes            0        Unmonitored                                  
+2 sip peers [Monitored: 0 online, 0 offline Unmonitored: 0 online, 2 offline]
+aluno*CLI> exit
+Asterisk cleanly ending (0).
+Executing last minute cleanups
+aluno@aluno:/home$ 
+aluno@aluno:/home$ apt-get insta^C
+aluno@aluno:/home$ sudo apt-get install sngrep -y 
+Lendo listas de pacotes... Pronto
+Construindo árvore de dependências... Pronto
+Lendo informação de estado... Pronto        
+Os NOVOS pacotes a seguir serão instalados:
+  sngrep
+0 pacotes atualizados, 1 pacotes novos instalados, 0 a serem removidos e 513 não atualizados.
+É preciso baixar 85,4 kB de arquivos.
+Depois desta operação, 287 kB adicionais de espaço em disco serão usados.
+Obter:1 http://br.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 sngrep amd64 1.4.10-1ubuntu0.1 [85,4 kB]
+Baixados 85,4 kB em 10s (8.271 B/s)    
+A seleccionar pacote anteriormente não seleccionado sngrep.
+(Lendo banco de dados ... 208980 ficheiros e directórios actualmente instalados.)
+A preparar para desempacotar .../sngrep_1.4.10-1ubuntu0.1_amd64.deb ...
+A descompactar sngrep (1.4.10-1ubuntu0.1) ...
+Configurando sngrep (1.4.10-1ubuntu0.1) ...
+A processar 'triggers' para man-db (2.10.2-1) ...
+aluno@aluno:/home$ sudo asterisk -r 
+Asterisk 18.10.0~dfsg+~cs6.10.40431411-2, Copyright (C) 1999 - 2021, Sangoma Technologies Corporation and others.
+Created by Mark Spencer <markster@digium.com>
+Asterisk comes with ABSOLUTELY NO WARRANTY; type 'core show warranty' for details.
+This is free software, with components licensed under the GNU General Public
+License version 2 and other licenses; you are welcome to redistribute it under
+certain conditions. Type 'core show license' for details.
+=========================================================================
+Connected to Asterisk 18.10.0~dfsg+~cs6.10.40431411-2 currently running on aluno (pid = 8346)
+aluno*CLI> sip show peers
+Name/username             Host                                    Dyn Forcerport Comedia    ACL Port     Status      Description                      
+7001/7001                 191.36.13.29                             D  Yes        Yes            59927    Unmonitored                                  
+7002                      (Unspecified)                            D  Yes        Yes            0        Unmonitored                                  
+2 sip peers [Monitored: 0 online, 0 offline Unmonitored: 1 online, 1 offline]
+aluno*CLI> 
+aluno*CLI> quit 
+Asterisk cleanly ending (0).
+Executing last minute cleanups
+aluno@aluno:/home$ 
+aluno@aluno:/home$ 
+aluno@aluno:/home$ ls -l
+total 8
+drwxr-x--- 16 aluno  aluno  4096 jul 19 08:06 aluno
+drwxr-x---  6 cadore cadore 4096 jul 19 08:34 cadore
+aluno@aluno:/home$ ss -lnt 
+State       Recv-Q      Send-Q           Local Address:Port           Peer Address:Port     Process     
+LISTEN      0           4096             127.0.0.53%lo:53                  0.0.0.0:*                    
+LISTEN      0           128                    0.0.0.0:23                  0.0.0.0:*                    
+LISTEN      0           128                  127.0.0.1:631                 0.0.0.0:*                    
+LISTEN      0           10                   127.0.0.1:5038                0.0.0.0:*                    
+LISTEN      0           128                    0.0.0.0:2222                0.0.0.0:*                    
+LISTEN      0           128                      [::1]:631                    [::]:*                    
+LISTEN      0           128                       [::]:2222                   [::]:*                    
+aluno@aluno:/home$ ss -lnu 
+State      Recv-Q      Send-Q           Local Address:Port            Peer Address:Port     Process     
+UNCONN     0           0                127.0.0.53%lo:53                   0.0.0.0:*                    
+UNCONN     0           0                      0.0.0.0:4569                 0.0.0.0:*                    
+UNCONN     0           0                      0.0.0.0:631                  0.0.0.0:*                    
+UNCONN     0           0                      0.0.0.0:53975                0.0.0.0:*                    
+UNCONN     0           0                      0.0.0.0:5060                 0.0.0.0:*                    
+UNCONN     0           0                      0.0.0.0:5353                 0.0.0.0:*                    
+UNCONN     0           0                      0.0.0.0:60660                0.0.0.0:*                    
+UNCONN     0           0                         [::]:43849                   [::]:*                    
+UNCONN     0           0                         [::]:58559                   [::]:*                    
+UNCONN     0           0                         [::]:5353                    [::]:*   
