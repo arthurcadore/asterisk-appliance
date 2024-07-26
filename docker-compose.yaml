@@ -1,7 +1,6 @@
 # Main composition file for Asterisk Application Container.
 # Author: Arthur Cadore M. Barcella
 # Github: arthurcadore
-# Capacitação Redes - PV Intelbras
 
 version: '3.8'
 services:

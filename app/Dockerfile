@@ -1,17 +1,17 @@
 FROM ubuntu:22.04
 
+# Set the environment variables
 ENV DEBIAN_FRONTEND=noninteractive
 
+# Install the required packages
 RUN apt-get update && apt-get clean
-RUN apt-get install -y asterisk net-tools sngrep supervisor 
+RUN apt-get install -y \ 
+    asterisk \ 
+    net-tools \
+    sngrep \
+    supervisor \
+    && apt-get clean
 
-## Add startup script to container:
-#COPY app/startup.sh /usr/sbin/startup.sh
-#RUN chmod +x /usr/sbin/startup.sh
-#
-## Starts and Mantain container running:
-#CMD ["/usr/sbin/startup.sh"]
-
+# Copy the configuration files
 COPY app/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
-
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
