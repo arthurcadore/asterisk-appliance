@@ -8,11 +8,15 @@ services:
   # Application container
   asteriskserver:
     container_name: asteriskserver
-    ports:
-      - "5060:5060/udp" # VoIP UDP port
+    hostname: dhcpserver
+    restart: always
+    network_mode: "host"
+    cap_add:
+      - NET_ADMIN
     volumes:
       - "./config/extensions.conf:/etc/asterisk/extensions.conf"
-      - "./config/users.conf:/etc/asterisk/users.conf"
+      - "./config/sip.conf:/etc/asterisk/sip.conf"
+      - "./config/voicemail.conf:/etc/asterisk/voicemail.conf"
     build:
       context: .
       dockerfile: ./app/Dockerfile

@@ -3,7 +3,7 @@ FROM ubuntu:22.04
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get clean
-RUN apt-get install -y asterisk net-tools
+RUN apt-get install -y asterisk net-tools sngrep
 
 # Add startup script to container:
 COPY app/startup.sh /usr/sbin/startup.sh
