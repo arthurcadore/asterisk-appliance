@@ -50,7 +50,7 @@ To connect to the asterisk server, you can use the MicroSIP client, using the co
 #### Server Parameters: 
 
 <p align="center">
-  <img src="./pictures/MicroSIP-Config.png" width="200px" align="center">
+  <img src="./pictures/MicroSIP-Config.png" width="400px" align="center">
 </p>
 
 
@@ -66,7 +66,7 @@ To connect to the asterisk server, you can use the MicroSIP client, using the co
 Once the configuration was finished, you can see the MicroSIP interface as follows, look at the bottom right corner, the status of the connection should be "Connected".
 
 <p align="center">
-  <img src="./pictures/MicroSIP-Config3.png" width="200px" align="center">
+  <img src="./pictures/MicroSIP-Config3.png" width="400px" align="center">
 </p>
 
 
