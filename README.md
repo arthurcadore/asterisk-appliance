@@ -48,17 +48,27 @@ Once the container is up and running, you can access the container by `sip://127
 To connect to the asterisk server, you can use the MicroSIP client, using the configuration as follows:
 
 #### Server Parameters: 
-![Server Parameters](./pictures/MicroSIP-Config.png)
+
+<p align="center">
+  <img src="./pictures/MicroSIP-Config.png" width="200px" align="center">
+</p>
+
 
 #### Data Parameters: 
 
-![Data Parameters](./pictures/MicroSIP-Config2.png)
+<p align="center">
+  <img src="./pictures/MicroSIP-Config2.png" align="center">
+</p>
+
 
 #### MicroSIP Interface:
 
 Once the configuration was finished, you can see the MicroSIP interface as follows, look at the bottom right corner, the status of the connection should be "Connected".
 
-![MicroSIP Interface](./pictures/MicroSIP-Config3.png)
+<p align="center">
+  <img src="./pictures/MicroSIP-Config3.png" width="200px" align="center">
+</p>
+
 
 Also in the server logs you can see the connection established:
 
